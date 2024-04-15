@@ -195,11 +195,11 @@ header .navbar .link-btn {
 }
 .contact-section {
     padding: 2rem;
-    border: 1px solid #ca8e46;
+    border: 1px solid #ebad62;
     border-radius: 20px;
     width: 100%;
     transition: .2s ease-in-out;
-    background-color: #ca8e46;
+    background-color: #ebad62;
 }
 .contact-section:hover {
     background-color: #ffffff;
@@ -284,6 +284,9 @@ hr {
 .pd3 {
     padding-top: 3rem
 }
+.carousel-item {
+    height: 250px;
+}
 /*Animation*/
 .hidden {
     transform: scale(0);
@@ -359,7 +362,7 @@ hr {
     background-size: cover;
 }
 .carousel-4 {
-    background: url('assets/image/12.jpg')rgba(0, 0, 0, 0.65);
+    background: url('assets/image/2.jpg')rgba(0, 0, 0, 0.65);
     height: 100%;
     background-position: center;
     background-blend-mode: multiply;
@@ -367,7 +370,7 @@ hr {
     background-size: cover;
 }
 .carousel-5 {
-    background: url('assets/image/11.jpg')rgba(0, 0, 0, 0.65);
+    background: url('assets/image/8.jpg')rgba(0, 0, 0, 0.65);
     height: 100%;
     background-position: center;
     background-blend-mode: multiply;
@@ -513,13 +516,9 @@ hr {
     .carousel-caption {
         position: absolute;
         top: 50%;
-        /* Position the top edge of the caption at the vertical center */
         left: 0;
-        /* Position the left edge of the caption at the left side */
         right: 0;
-        /* Position the right edge of the caption at the right side */
         transform: translateY(-50%);
-        /* Move the caption up by half of its height to perfectly center it */
     }
 }
 @media screen and (max-width: 850px) {
@@ -576,6 +575,23 @@ hr {
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         display: none;
+    }
+    html body main section div.container div.row.pd3 div.col-md-7.hidden2.show2 div.row h1 {
+        text-align: initial;
+        font-size: 30px !important;
+    }
+    .ammb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ammb .facility-row {
+        margin-top: 20px;
+    }
+    .ammb .facility-row .col-lg-2 {
+        flex-basis: 100%; /* Make each column take up 50% width */
+        text-align: center;
+        margin-bottom: 20px; /* Adjust margin as needed */
     }
 }
 @media (max-width: 992px) {}
